@@ -1,0 +1,1056 @@
+ <domain:userConfig xmlns:domain="urn:vfi-sapphire:np.domain.2001-07-01">
+   <site>1</site>
+   <functions>
+     <function name="View User configuration" cmd="vuseradmin"/>
+     <function name="User Administration" cmd="uuseradmin"/>
+     <function name="Change Password" cmd="changepasswd"/>
+     <function name="Refresh function list" cmd="ufunctionlist"/>
+     <function name="Validate the credential" cmd="validate"/>
+     <function name="Release the credential" cmd="releaseCredential"/>
+     <function name="View Current Security Log Server IP Address"
+     cmd="vsecuritylogservercfg"/>
+     <function name="Update Security Log Server IP Address"
+     cmd="usecuritylogservercfg"/>
+     <function name="View Basic Fep Details" cmd="vfepdetails"/>
+     <function name="View Viper's site level Config" cmd="vvipercfg"/>
+     <function name="View Fep's configuration parameters" cmd="vfepcfg"/>
+     <function name="View Fep's card configuration parameters" cmd="vfepcardcfg"/>
+     <function name="View Pinpad Idle and Swipe messages" cmd="vpinpadmsgcfg"/>
+     <function name="View Global Loyalty parameters" cmd="vloyaltyglobalcfg"/>
+     <function name="View Loyalty Card Configuration" cmd="vloyaltycardcfg"/>
+     <function name="Update Loyalty Card Configuration" cmd="uloyaltycardcfg"/>
+     <function name="View Loyalty Card Type Configuration" cmd="vloyaltycardtypecfg"/>
+     <function name="Update Loyalty Card Type Configuration" cmd="uloyaltycardtypecfg"/>
+     <function name="View Fep's card configuration parameters based on card Type"
+     cmd="vfepcardtypecfg"/>
+     <function name="Update Viper's site level Config" cmd="uvipercfg"/>
+     <function name="Update Fep's configuration parameters" cmd="ufepcfg"/>
+     <function name="Update Fep's card configuration parameters" cmd="ufepcardcfg"/>
+     <function name="View Trigger Pull Configuration" cmd="vtriggerpullcfg"/>
+     <function name="Update Trigger Pull Configuration" cmd="utriggerpullcfg"/>
+     <function name="View EMV Configuration" cmd="vemvcfg"/>
+     <function name="Update EMV Configuration" cmd="uemvcfg"/>
+     <function name="View EMV Initialization" cmd="vemvinit"/>
+     <function name="Update EMV Initialization" cmd="uemvinit"/>
+     <function name="Update Fep's card configuration parameters based on card Type"
+     cmd="ufepcardtypecfg"/>
+     <function name="Update Pinpad Idle and Swipe messages" cmd="upinpadmsgcfg"/>
+     <function name="Update Global Loyalty parameters" cmd="uloyaltyglobalcfg"/>
+     <function name="View Site Asset Data of EPS" cmd="vepssiteassetdata"/>
+     <function name="Allow Viper period list view" cmd="vviperpdlist"/>
+     <function name="Viper reports" cmd="vviperrept"/>
+     <function name="View App Info" cmd="vAppInfo"/>
+     <function name="View App Specific Config" cmd="vappcfg"/>
+     <function name="View Proprietary Network Menu xml" cmd="vproprietarynetworkmenu"/>
+     <function name="View Network Menu xml" cmd="vnetworkmenu"/>
+     <function name="View Sales Network Menu xml" cmd="vsalesnetworkmenu"/>
+     <function name="Refresh Eps Config" cmd="crefreshepsconfig"/>
+     <function name="View POS Payment Configuration" cmd="vpospaymentconfig"/>
+     <function name="Update POS Payment Configuration" cmd="upospaymentconfig"/>
+     <function name="View Hosts List" cmd="vmobilehostlist"/>
+     <function name="View Reports List" cmd="vmobilereportlist"/>
+     <function name="View Reports Category List" cmd="vmobilereportcategorylist"/>
+     <function name="View Mobile Report" cmd="vmobilereport"/>
+     <function name="View Mobile Configuration" cmd="vmobilecfg"/>
+     <function name="Update Mobile Configuration" cmd="umobilecfg"/>
+     <function name="Update Cashier End Drawer Amounts" cmd="ucashierenddraweramts"/>
+     <function name="View Cashier Drawer Amounts" cmd="vmwscashierdraweramts"/>
+     <function name="View Manager Review Status" cmd="vreportstatus"/>
+     <function name="Update Manager Review Status" cmd="ureportstatus"/>
+     <function name="Update Cashier Report Review Status"
+￼ ￼ ￼ 
+cmd="ucashierreportreviewstatus"/>
+<function name="View Till Event Reports" cmd="vtilleventreport"/>
+<function name="Update Manager Adjustments" cmd="umanageradjustment"/>
+<function name="Update Manager Corrections" cmd="umanagercorrection"/>
+<function name="View MWS Cash Movement Report" cmd="vmwscashmovementreport"/>
+<function name="Update MWS Cash Movement Info" cmd="umwscashmovementreport"/>
+<function name="View Manager Accepted Reports" cmd="vmwslogpdlist"/>
+<function name="Update Managed Configuration" cmd="umanagedcfg"/>
+<function name="View Managed Update Status" cmd="vmanagedcfgstatus"/>
+<function name="Send plu.dat to GEMPRO" cmd="sendPLUsToGempro"/>
+<function name="Send plu.dat to NEWPRO" cmd="getPLUsFromGempro"/>
+<function name="View PLU Update status" cmd="vPLUUpdateStatus"/>
+<function name="View PLU dataset" cmd="vPLUs"/>
+<function name="Update PLU dataset" cmd="uPLUs"/>
+<function name="View PLU cache list" cmd="vPLUCacheList"/>
+<function name="Update PLU cache list" cmd="uPLUCacheList"/>
+<function name="Set Time and Date" cmd="udatetime"/>
+<function name="Get Time and Date" cmd="vdatetime"/>
+<function name="View process table - Text" cmd="vpsinfo"/>
+<function name="View system log - Text" cmd="vsyslog"/>
+<function name="Update Fuel Site Configuration" cmd="vfuelcfg"/>
+<function name="In-effect Fuel Site Configuration" cmd="vfuelrtcfg"/>
+<function name="Update Fuel Site Configuration" cmd="ufuelcfg"/>
+<function name="View In-effect Fuel Prices" cmd="vfuelrtprices"/>
+<function name="View In-effect Fuel Prices" cmd="vfuelprices"/>
+<function name="Update Fuel Prices" cmd="ufuelprices"/>
+<function name="View Controller system properties" cmd="vsapphireprop"/>
+<function name="Update Controller system properties" cmd="usapphireprop"/>
+<function name="View commander console cloud agent properties"
+cmd="vcloudagentprop"/>
+<function name="Update commander console cloud agent properties"
+cmd="ucloudagentprop"/>
+<function name="View register config" cmd="vregistercfg"/>
+<function name="Update register config" cmd="uregistercfg"/>
+<function name="View payment config" cmd="vpaymentcfg"/>
+<function name="Update payment config" cmd="upaymentcfg"/>
+<function name="View restriction config" cmd="vrestrictionscfg"/>
+<function name="Update restriction config" cmd="urestrictionscfg"/>
+<function name="View POS config" cmd="vposcfg"/>
+<function name="Update POS config" cmd="uposcfg"/>
+<function name="View DCR config" cmd="vpscdcrcfg"/>
+<function name="Update DCR config" cmd="upscdcrcfg"/>
+<function name="View DCR Key config" cmd="vpscdcrkeycfg"/>
+<function name="Update DCR Key config" cmd="upscdcrkeycfg"/>
+<function name="View POS security config" cmd="vpossecurity"/>
+<function name="Update POS security config" cmd="upossecurity"/>
+<function name="Bypass employee id validation" cmd="bypassEmployeeId"/>
+<function name="View sales config" cmd="vsalescfg"/>
+<function name="Update sales config" cmd="usalescfg"/>
+<function name="View pop config" cmd="vpopcfg"/>
+<function name="Update pop config" cmd="upopcfg"/>
+<function name="View carwash config" cmd="vcarwashcfg"/>
+<function name="Update carwash config" cmd="ucarwashcfg"/>
+<function name="View carwash paypoint config" cmd="vcwpaypointcfg"/>
+<function name="Update carwash paypoint config" cmd="ucwpaypointcfg"/>
+<function name="View TLS config" cmd="vtlssite"/>
+<function name="Update TLS config" cmd="utlssite"/>
+<function name="View cash acceptor config" cmd="vcashaccsite"/>
+<function name="Update cash acceptor config" cmd="ucashaccsite"/>
+<function name="View age validation config" cmd="vagevalidationcfg"/>
+<function name="Update age validation config" cmd="uagevalidationcfg"/>
+<function name="View banner config" cmd="vbannercfg"/>
+<function name="Update banner config" cmd="ubannercfg"/>
+<function name="View blue law config" cmd="vbluelawcfg"/>
+<function name="Update blue law config" cmd="ubluelawcfg"/>
+<function name="View check franking config" cmd="vchecklinecfg"/>
+<function name="Update check franking config" cmd="uchecklinecfg"/>
+<function name="View DCR header config" cmd="vdcrheadercfg"/>
+<function name="Update DCR header config" cmd="udcrheadercfg"/>
+<function name="View DCR message config" cmd="vdcrmessagecfg"/>
+<function name="Update DCR message config" cmd="udcrmessagecfg"/>
+<function name="View DCR trailer config" cmd="vdcrtrailercfg"/>
+<function name="Update DCR trailer config" cmd="udcrtrailercfg"/>
+<function name="View fee config" cmd="vfeecfg"/>
+<function name="Update fee config" cmd="ufeecfg"/>
+<function name="View logo config" cmd="vlogocfg"/>
+<function name="Update logo config" cmd="ulogocfg"/>
+<function name="View slogan config" cmd="vslogancfg"/>
+<function name="Update slogan config" cmd="uslogancfg"/>
+<function name="View softkey config" cmd="vsoftkeycfg"/>
+<function name="Update softkey config" cmd="usoftkeycfg"/>
+<function name="View tax rate config" cmd="vtaxratecfg"/>
+<function name="Update tax rate config" cmd="utaxratecfg"/>
+<function name="View menu config" cmd="vmenucfg"/>
+<function name="Update menu config" cmd="umenucfg"/>
+<function name="View in-house account config" cmd="vinhouseacctcfg"/>
+<function name="Update in-house account config" cmd="uinhouseacctcfg"/>
+<function name="View NAXML maintenance datasets" cmd="vMaintenance"/>
+<function name="Update NAXML maintenance dataset" cmd="uMaintenance"/>
+<function name="View report period filename" cmd="findfilename"/>
+<function name="View Report List Configuration" cmd="vreportlist"/>
+<function name="Update Report List Configuration" cmd="ureportlist"/>
+<function name="View Group List Configuration" cmd="vgrouplist"/>
+<function name="Update Group List Configuration" cmd="ugrouplist"/>
+<function name="View Screen Themes" cmd="vthemecfg"/>
+<function name="View POS Screen Configuration" cmd="vscreencfg"/>
+<function name="Update POS Screen Configuration" cmd="uscreencfg"/>
+<function name="View maint totalizers" cmd="vmainttotalizers"/>
+<function name="View maint fueling point running hose totals" cmd="vmaintfprht"/>
+<function name="View maint registration" cmd="vmaintregistration"/>
+<function name="View maint telephone number" cmd="vmainttelephone"/>
+<function name="View maint postal code" cmd="vmaintpostal"/>
+<function name="Update maint totalizers" cmd="umainttotalizers"/>
+<function name="Update maint fprht" cmd="umaintfprht"/>
+<function name="Update maint registration key" cmd="umaintregistrationkey"/>
+<function name="Update maint telephone" cmd="umainttelephone"/>
+<function name="Update maint postal" cmd="umaintpostal"/>
+<function name="Period Reports with fully masked card holder data"
+cmd="vtransset"/>
+<function name="Compressed Period Reports with fully masked card holder data"
+cmd="vtranssetz"/>
+<function name="Manager workstation event logs" cmd="vmwslog"/>
+<function name="Ruby Reports" cmd="vrubyrept"/>
+<function name="Fuel Totals Report" cmd="vfueltotals"/>
+<function name="Compressed Fuel Totals Report" cmd="vfueltotalsz"/>
+<function name="View period list" cmd="vperiodlist"/>
+<function name="View T-Log period list" cmd="vtlogpdlist"/>
+<function name="View report period list" cmd="vreportpdlist"/>
+<function name="View cw paypoint period list" cmd="vcwpaypointpdlist"/>
+<function name="Carwash Paypoint Period Close" cmd="ccwpdclose"/>
+<function name="Initialize Carwash Paypoint" cmd="ccwpaypointinit"/>
+<function name="View cw paypoint period report" cmd="vcwpaypointpdrept"/>
+<function name="View Ruby payroll period list" cmd="vpayrollpdlist"/>
+<function name="View payroll period list" cmd="vpayrollpdlist2"/>
+<function name="Payroll Reports" cmd="vpayrollrept"/>
+<function name="Payroll Reports (new format)" cmd="vpayrollrept2"/>
+<function name="Allow all cashier reports view" cmd="allowAllCsrRpts"/>
+<function name="Allow open cashier reports view" cmd="allowOpenCsrRpts"/>
+<function name="Repeat last event" cmd="repeatEvent"/>
+<function name="Register event listener" cmd="veventset"/>
+<function name="Unregister event listener" cmd="veventunset"/>
+<function name="View fueling position status" cmd="vfuelposstat"/>
+<function name="Load Diagnostic Class" cmd="diagloadclass"/>
+<function name="Run Diagnostic Class" cmd="diagrunclass"/>
+<function name="Delete Diagnostic Class" cmd="diagdeleteclass"/>
+<function name="Initialize Fuel" cmd="cfuelinit"/>
+<function name="Initialize DCR" cmd="cdcrinit"/>
+<function name="Initialize DCR Driver" cmd="cdcrdriverinit"/>
+<function name="Enable Car Wash" cmd="ccarwashenable"/>
+<function name="Disable Car Wash" cmd="ccarwashdisable"/>
+<function name="Initialize Fuel Driver" cmd="cfueldrvinit"/>
+<function name="Download Fuel Prices" cmd="cfuelprices"/>
+<function name="Allow Restricted Access" cmd="allowRestricted"/>
+<function name="View Report Configuration" cmd="vreportcfg"/>
+<function name="Update Report Configuration" cmd="ureportcfg"/>
+<function name="View Fuel Tax Exemption Config" cmd="vfueltaxex"/>
+<function name="Update Fuel Tax Exemption Config" cmd="ufueltaxex"/>
+<function name="View FP Display Config" cmd="vFPDcfg"/>
+<function name="Update FP Display Config" cmd="uFPDcfg"/>
+<function name="Init FP Display Config" cmd="cFPDinit"/>
+<function name="Notify amber alert updates" cmd="notifyamber"/>
+<function name="Commit kiosk order" cmd="ukioskorder"/>
+<function name="View coupon family config" cmd="vcouponfamcfg"/>
+<function name="Update coupon family config" cmd="ucouponfamcfg"/>
+<function name="View discount denom config" cmd="vdiscountdenomcfg"/>
+<function name="Update discount denom config" cmd="udiscountdenomcfg"/>
+<function name="View MOP config" cmd="vmopcfg"/>
+<function name="Update MOP config" cmd="umopcfg"/>
+<function name="View currency config" cmd="vcurrencycfg"/>
+<function name="Update currency config" cmd="ucurrencycfg"/>
+<function name="View PLU Promo config" cmd="vplupromocfg"/>
+<function name="Update PLU Promo config" cmd="uplupromocfg"/>
+<function name="View Prepaid Card Config" cmd="vprepaidcfg"/>
+<function name="Update Prepaid Card Config" cmd="uprepaidcfg"/>
+<function name="View EPS Prepaid Card Config" cmd="vepsprepaidcfg"/>
+<function name="Update EPS Prepaid Card Config" cmd="uepsprepaidcfg"/>
+<function name="View cashier tracking configuration" cmd="vcashiertrackingcfg"/>
+<function name="Update cashier tracking configuration" cmd="ucashiertrackingcfg"/>
+<function name="View IFSF Network Config" cmd="vifsfcfg"/>
+<function name="Update IFSF Network Config" cmd="uifsfcfg"/>
+<function name="View policy config" cmd="vpolicycfg"/>
+<function name="Update policy config" cmd="upolicycfg"/>
+<function name="View Esafe Config" cmd="vesafecfg"/>
+<function name="Update Esafe Config" cmd="uesafecfg"/>
+<function name="View Food Service Config" cmd="vfoodservicecfg"/>
+<function name="Update Food Service Config" cmd="ufoodservicecfg"/>
+<function name="View Echeck Config" cmd="vecheckcfg"/>
+<function name="Update Echeck Config" cmd="uecheckcfg"/>
+<function name="View Site Asset Data" cmd="vsiteassetdata"/>
+<function name="View Module Referentials" cmd="vmodulecfgref"/>
+<function name="View Configuration" cmd="vmanagedmodulecfg"/>
+<function name="View Pending Configurations" cmd="vpendmdlcfg"/>
+<function name="View System Resource Mappings" cmd="vsysresourcesmap"/>
+<function name="Update Configuration" cmd="umanagedmodulecfg"/>
+<function name="View a Module Configuration" cmd="vmodulecfg"/>
+<function name="View App Module Names" cmd="vappmodules"/>
+<function name="View Module/Descriptions map" cmd="vmoddescmap"/>
+<function name="View Upgrade Summary Report" cmd="vupgradesummary"/>
+<function name="Request Auto Upgrade Engine to begin upgrade" cmd="cbeginupgrade"/>
+<function name="View feature list" cmd="vfeaturelist"/>
+<function name="View Network Configuration" cmd="vnetposcfg"/>
+<function name="Update Network Configuration" cmd="unetposcfg"/>
+<function name="Refresh Configuration" cmd="crefreshcfg"/>
+<function name="Cashier Reports" cmd="vcashierrept"/>
+<function name="ESafe Cashier Reports" cmd="vesafecashierrept"/>
+  <function name="View cashier report period list" cmd="vcashierpdlist"/>
+  <function name="View support doc" cmd="vrefinteg"/>
+  <function name="Pings a given destination." cmd="cping"/>
+  <function name="Pings the commander console url" cmd="cconsoleurl"/>
+  <function name="Update a feature" cmd="cfeatureenablement"/>
+  <function name="Update software" cmd="cswupgradepkg"/>
+  <function name="View Network Settings" cmd="vnetworkcfg"/>
+  <function name="Update Network Settings" cmd="unetworkcfg"/>
+  <function name="Update network settings" cmd="unetworkpartcfg"/>
+  <function name="Close Day Now" cmd="cclosedaynow"/>
+  <function name="View DCR Idle Screen config" cmd="vdcridlescreencfg"/>
+  <function name="Update DCR Idle Screen config" cmd="udcridlescreencfg"/>
+  <function name="View Vending Machine config" cmd="vvendingmachinecfg"/>
+  <function name="Update Vending Machine config" cmd="uvendingmachinecfg"/>
+  <function name="View NAXML movement reports" cmd="vMovement"/>
+  <function name="View cashier tracking report" cmd="vcashiertrackingrept"/>
+  <function name="View NAXML POSJournal reports" cmd="vposjournal"/>
+  <function name="View manager work station event in POSJournal reports"
+  cmd="vmwsposjournal"/>
+</functions>
+<roles>
+  <role name="basic">
+   <validFns>
+     <function name="ESafe Cashier Reports" cmd="vesafecashierrept"/>
+     <function name="View App Info" cmd="vAppInfo"/>
+     <function name="Change Password" cmd="changepasswd"/>
+     <function name="View support doc" cmd="vrefinteg"/>
+     <function name="Refresh function list" cmd="ufunctionlist"/>
+     <function name="Cashier Reports" cmd="vcashierrept"/>
+     <function name="View Basic Fep Details" cmd="vfepdetails"/>
+     <function name="Validate the credential" cmd="validate"/>
+     <function name="Release the credential" cmd="releaseCredential"/>
+     <function name="View cashier report period list" cmd="vcashierpdlist"/>
+   </validFns>
+  </role>
+  <role name="storemanager">
+   <validFns>
+     <function name="Allow open cashier reports view" cmd="allowOpenCsrRpts"/>
+     <function name="Update Mobile Configuration" cmd="umobilecfg"/>
+     <function name="View Group List Configuration" cmd="vgrouplist"/>
+     <function name="Update maint registration key" cmd="umaintregistrationkey"/>
+     <function name="View report period filename" cmd="findfilename"/>
+     <function name="Update maint telephone" cmd="umainttelephone"/>
+     <function name="Carwash Paypoint Period Close" cmd="ccwpdclose"/>
+     <function name="View period list" cmd="vperiodlist"/>
+     <function name="View Reports List" cmd="vmobilereportlist"/>
+     <function name="Ruby Reports" cmd="vrubyrept"/>
+     <function name="View report period list" cmd="vreportpdlist"/>
+     <function name="View Hosts List" cmd="vmobilehostlist"/>
+     <function name="View support doc" cmd="vrefinteg"/>
+     <function name="View Mobile Report" cmd="vmobilereport"/>
+     <function name="View T-Log period list" cmd="vtlogpdlist"/>
+     <function name="View payroll period list" cmd="vpayrollpdlist2"/>
+     <function name="View In-effect Fuel Prices" cmd="vfuelprices"/>
+     <function name="View Report List Configuration" cmd="vreportlist"/>
+     <function name="Fuel Totals Report" cmd="vfueltotals"/>
+     <function name="Update Loyalty Card Configuration" cmd="uloyaltycardcfg"/>
+     <function name="Compressed Fuel Totals Report" cmd="vfueltotalsz"/>
+     <function name="Update POS security config" cmd="upossecurity"/>
+     <function name="View Mobile Configuration" cmd="vmobilecfg"/>
+     <function name="Initialize Carwash Paypoint" cmd="ccwpaypointinit"/>
+     <function name="Update Report List Configuration" cmd="ureportlist"/>
+     <function name="Update maint totalizers" cmd="umainttotalizers"/>
+     <function name="View Ruby payroll period list" cmd="vpayrollpdlist"/>
+     <function name="Update Fuel Prices" cmd="ufuelprices"/>
+￼ ￼ ￼ ￼ ￼ 
+   <function name="Allow all cashier reports view" cmd="allowAllCsrRpts"/>
+   <function name="Update maint fprht" cmd="umaintfprht"/>
+   <function name="Payroll Reports" cmd="vpayrollrept"/>
+   <function name="View POS security config" cmd="vpossecurity"/>
+   <function name="Update Group List Configuration" cmd="ugrouplist"/>
+   <function name="View cw paypoint period list" cmd="vcwpaypointpdlist"/>
+   <function name="View cw paypoint period report" cmd="vcwpaypointpdrept"/>
+   <function name="View Loyalty Card Configuration" cmd="vloyaltycardcfg"/>
+   <function name="Update maint postal" cmd="umaintpostal"/>
+  </validFns>
+</role>
+<role name="manager">
+  <validFns>
+   <function name="View Till Event Reports" cmd="vtilleventreport"/>
+   <function name="View carwash config" cmd="vcarwashcfg"/>
+   <function name="Update Fuel Tax Exemption Config" cmd="ufueltaxex"/>
+   <function name="View Reports List" cmd="vmobilereportlist"/>
+   <function name="Refresh function list" cmd="ufunctionlist"/>
+   <function name="View Vending Machine config" cmd="vvendingmachinecfg"/>
+   <function name="Change Password" cmd="changepasswd"/>
+   <function name="View slogan config" cmd="vslogancfg"/>
+   <function name="View register config" cmd="vregistercfg"/>
+   <function name="Update sales config" cmd="usalescfg"/>
+   <function name="Compressed Fuel Totals Report" cmd="vfueltotalsz"/>
+   <function name="View Prepaid Card Config" cmd="vprepaidcfg"/>
+   <function name="Update Security Log Server IP Address"
+   cmd="usecuritylogservercfg"/>
+   <function name="Update POS Payment Configuration" cmd="upospaymentconfig"/>
+   <function name="Period Reports with fully masked card holder data"
+   cmd="vtransset"/>
+   <function name="Update DCR header config" cmd="udcrheadercfg"/>
+   <function name="Update PLU Promo config" cmd="uplupromocfg"/>
+   <function name="View Fep's card configuration parameters based on card Type"
+   cmd="vfepcardtypecfg"/>
+   <function name="Update Manager Corrections" cmd="umanagercorrection"/>
+   <function name="View Upgrade Summary Report" cmd="vupgradesummary"/>
+   <function name="Notify amber alert updates" cmd="notifyamber"/>
+   <function name="Update PLU dataset" cmd="uPLUs"/>
+   <function name="View Module/Descriptions map" cmd="vmoddescmap"/>
+   <function name="Update cash acceptor config" cmd="ucashaccsite"/>
+   <function name="Payroll Reports (new format)" cmd="vpayrollrept2"/>
+   <function name="Pings a given destination." cmd="cping"/>
+   <function name="Enable Car Wash" cmd="ccarwashenable"/>
+   <function name="View commander console cloud agent properties"
+   cmd="vcloudagentprop"/>
+   <function name="View softkey config" cmd="vsoftkeycfg"/>
+   <function name="Update Fuel Site Configuration" cmd="vfuelcfg"/>
+   <function name="Update Fuel Site Configuration" cmd="ufuelcfg"/>
+   <function name="Update Network Configuration" cmd="unetposcfg"/>
+   <function name="Init FP Display Config" cmd="cFPDinit"/>
+   <function name="View App Info" cmd="vAppInfo"/>
+   <function name="Update pop config" cmd="upopcfg"/>
+   <function name="View blue law config" cmd="vbluelawcfg"/>
+   <function name="Update Report List Configuration" cmd="ureportlist"/>
+   <function name="View tax rate config" cmd="vtaxratecfg"/>
+   <function name="Run Diagnostic Class" cmd="diagrunclass"/>
+   <function name="Update maint totalizers" cmd="umainttotalizers"/>
+   <function name="Update banner config" cmd="ubannercfg"/>
+   <function name="View manager work station event in POSJournal reports"
+   cmd="vmwsposjournal"/>
+   <function name="View pop config" cmd="vpopcfg"/>
+   <function name="View Manager Accepted Reports" cmd="vmwslogpdlist"/>
+   <function name="Update discount denom config" cmd="udiscountdenomcfg"/>
+   <function name="View MWS Cash Movement Report" cmd="vmwscashmovementreport"/>
+   <function name="View menu config" cmd="vmenucfg"/>
+￼ ￼ 
+<function name="View Basic Fep Details" cmd="vfepdetails"/>
+<function name="Update menu config" cmd="umenucfg"/>
+<function name="Update DCR Idle Screen config" cmd="udcridlescreencfg"/>
+<function name="Update Manager Review Status" cmd="ureportstatus"/>
+<function name="View User configuration" cmd="vuseradmin"/>
+<function name="Allow Restricted Access" cmd="allowRestricted"/>
+<function name="View carwash paypoint config" cmd="vcwpaypointcfg"/>
+<function name="View EMV Initialization" cmd="vemvinit"/>
+<function name="Update EMV Initialization" cmd="uemvinit"/>
+<function name="Get Time and Date" cmd="vdatetime"/>
+<function name="View Pending Configurations" cmd="vpendmdlcfg"/>
+<function name="View PLU dataset" cmd="vPLUs"/>
+<function name="Update cashier tracking configuration"
+cmd="ucashiertrackingcfg"/>
+<function name="Allow all cashier reports view" cmd="allowAllCsrRpts"/>
+<function name="Release the credential" cmd="releaseCredential"/>
+<function name="Update FP Display Config" cmd="uFPDcfg"/>
+<function name="View NAXML movement reports" cmd="vMovement"/>
+<function name="Send plu.dat to NEWPRO" cmd="getPLUsFromGempro"/>
+<function name="Update Trigger Pull Configuration" cmd="utriggerpullcfg"/>
+<function name="Update logo config" cmd="ulogocfg"/>
+<function name="View PLU Update status" cmd="vPLUUpdateStatus"/>
+<function name="Update DCR config" cmd="upscdcrcfg"/>
+<function name="View period list" cmd="vperiodlist"/>
+<function name="Update MWS Cash Movement Info" cmd="umwscashmovementreport"/>
+<function name="Cashier Reports" cmd="vcashierrept"/>
+<function name="View Group List Configuration" cmd="vgrouplist"/>
+<function name="View DCR message config" cmd="vdcrmessagecfg"/>
+<function name="View report period filename" cmd="findfilename"/>
+<function name="View maint postal code" cmd="vmaintpostal"/>
+<function name="View Proprietary Network Menu xml"
+cmd="vproprietarynetworkmenu"/>
+<function name="Update maint telephone" cmd="umainttelephone"/>
+<function name="View POS security config" cmd="vpossecurity"/>
+<function name="View Food Service Config" cmd="vfoodservicecfg"/>
+<function name="Register event listener" cmd="veventset"/>
+<function name="Update Report Configuration" cmd="ureportcfg"/>
+<function name="Disable Car Wash" cmd="ccarwashdisable"/>
+<function name="View Report List Configuration" cmd="vreportlist"/>
+<function name="View Mobile Configuration" cmd="vmobilecfg"/>
+<function name="View DCR Key config" cmd="vpscdcrkeycfg"/>
+<function name="View sales config" cmd="vsalescfg"/>
+<function name="Update TLS config" cmd="utlssite"/>
+<function name="Update EPS Prepaid Card Config" cmd="uepsprepaidcfg"/>
+<function name="View TLS config" cmd="vtlssite"/>
+<function name="Update NAXML maintenance dataset" cmd="uMaintenance"/>
+<function name="View cw paypoint period report" cmd="vcwpaypointpdrept"/>
+<function name="Initialize Fuel Driver" cmd="cfueldrvinit"/>
+<function name="Update in-house account config" cmd="uinhouseacctcfg"/>
+<function name="View App Module Names" cmd="vappmodules"/>
+<function name="Update POS Screen Configuration" cmd="uscreencfg"/>
+<function name="In-effect Fuel Site Configuration" cmd="vfuelrtcfg"/>
+<function name="Commit kiosk order" cmd="ukioskorder"/>
+<function name="View Global Loyalty parameters" cmd="vloyaltyglobalcfg"/>
+<function name="Send plu.dat to GEMPRO" cmd="sendPLUsToGempro"/>
+<function name="Update Fep's card configuration parameters based on card Type"
+cmd="ufepcardtypecfg"/>
+<function name="Allow Viper period list view" cmd="vviperpdlist"/>
+<function name="Update slogan config" cmd="uslogancfg"/>
+<function name="Fuel Totals Report" cmd="vfueltotals"/>
+<function name="Delete Diagnostic Class" cmd="diagdeleteclass"/>
+<function name="View maint totalizers" cmd="vmainttotalizers"/>
+<function name="Update Configuration" cmd="umanagedmodulecfg"/>
+<function name="Unregister event listener" cmd="veventunset"/>
+<function name="View maint fueling point running hose totals"
+cmd="vmaintfprht"/>
+<function name="Ruby Reports" cmd="vrubyrept"/>
+<function name="View cashier report period list" cmd="vcashierpdlist"/>
+<function name="View Ruby payroll period list" cmd="vpayrollpdlist"/>
+<function name="Update restriction config" cmd="urestrictionscfg"/>
+<function name="Update software" cmd="cswupgradepkg"/>
+<function name="View Mobile Report" cmd="vmobilereport"/>
+<function name="Load Diagnostic Class" cmd="diagloadclass"/>
+<function name="View System Resource Mappings" cmd="vsysresourcesmap"/>
+<function name="Bypass employee id validation" cmd="bypassEmployeeId"/>
+<function name="View Module Referentials" cmd="vmodulecfgref"/>
+<function name="View support doc" cmd="vrefinteg"/>
+<function name="Update register config" cmd="uregistercfg"/>
+<function name="Update carwash config" cmd="ucarwashcfg"/>
+<function name="Validate the credential" cmd="validate"/>
+<function name="Update payment config" cmd="upaymentcfg"/>
+<function name="View maint registration" cmd="vmaintregistration"/>
+<function name="View In-effect Fuel Prices" cmd="vfuelprices"/>
+<function name="View age validation config" cmd="vagevalidationcfg"/>
+<function name="View Hosts List" cmd="vmobilehostlist"/>
+<function name="View policy config" cmd="vpolicycfg"/>
+<function name="View Site Asset Data of EPS" cmd="vepssiteassetdata"/>
+<function name="Update Prepaid Card Config" cmd="uprepaidcfg"/>
+<function name="Update Esafe Config" cmd="uesafecfg"/>
+<function name="View NAXML maintenance datasets" cmd="vMaintenance"/>
+<function name="Update a feature" cmd="cfeatureenablement"/>
+<function name="View Controller system properties" cmd="vsapphireprop"/>
+<function name="View NAXML POSJournal reports" cmd="vposjournal"/>
+<function name="Update Manager Adjustments" cmd="umanageradjustment"/>
+<function name="Update DCR trailer config" cmd="udcrtrailercfg"/>
+<function name="Download Fuel Prices" cmd="cfuelprices"/>
+<function name="View Managed Update Status" cmd="vmanagedcfgstatus"/>
+<function name="Update IFSF Network Config" cmd="uifsfcfg"/>
+<function name="View IFSF Network Config" cmd="vifsfcfg"/>
+<function name="View Trigger Pull Configuration" cmd="vtriggerpullcfg"/>
+<function name="Update POS config" cmd="uposcfg"/>
+<function name="View currency config" cmd="vcurrencycfg"/>
+<function name="User Administration" cmd="uuseradmin"/>
+<function name="Update Loyalty Card Configuration" cmd="uloyaltycardcfg"/>
+<function name="Initialize DCR Driver" cmd="cdcrdriverinit"/>
+<function name="Refresh Eps Config" cmd="crefreshepsconfig"/>
+<function name="Update softkey config" cmd="usoftkeycfg"/>
+<function name="View cashier tracking report" cmd="vcashiertrackingrept"/>
+<function name="View check franking config" cmd="vchecklinecfg"/>
+<function name="Update Food Service Config" cmd="ufoodservicecfg"/>
+<function name="View POS config" cmd="vposcfg"/>
+<function name="View PLU cache list" cmd="vPLUCacheList"/>
+<function name="View a Module Configuration" cmd="vmodulecfg"/>
+<function name="Update maint registration key" cmd="umaintregistrationkey"/>
+<function name="Update blue law config" cmd="ubluelawcfg"/>
+<function name="Update tax rate config" cmd="utaxratecfg"/>
+<function name="View logo config" cmd="vlogocfg"/>
+<function name="View PLU Promo config" cmd="vplupromocfg"/>
+<function name="Update Network Settings" cmd="unetworkcfg"/>
+<function name="View DCR header config" cmd="vdcrheadercfg"/>
+<function name="View FP Display Config" cmd="vFPDcfg"/>
+<function name="Update Vending Machine config" cmd="uvendingmachinecfg"/>
+<function name="View Sales Network Menu xml" cmd="vsalesnetworkmenu"/>
+<function name="View payment config" cmd="vpaymentcfg"/>
+<function name="View Fuel Tax Exemption Config" cmd="vfueltaxex"/>
+<function name="View In-effect Fuel Prices" cmd="vfuelrtprices"/>
+<function name="View report period list" cmd="vreportpdlist"/>
+<function name="Update Group List Configuration" cmd="ugrouplist"/>
+<function name="Update PLU cache list" cmd="uPLUCacheList"/>
+<function name="View POS Payment Configuration" cmd="vpospaymentconfig"/>
+<function name="View cash acceptor config" cmd="vcashaccsite"/>
+<function name="View Network Menu xml" cmd="vnetworkmenu"/>
+<function name="Request Auto Upgrade Engine to begin upgrade"
+cmd="cbeginupgrade"/>
+<function name="View T-Log period list" cmd="vtlogpdlist"/>
+<function name="Update MOP config" cmd="umopcfg"/>
+<function name="View in-house account config" cmd="vinhouseacctcfg"/>
+<function name="View Loyalty Card Type Configuration"
+cmd="vloyaltycardtypecfg"/>
+<function name="Update Mobile Configuration" cmd="umobilecfg"/>
+<function name="Update Fep's configuration parameters" cmd="ufepcfg"/>
+<function name="View restriction config" cmd="vrestrictionscfg"/>
+<function name="View MOP config" cmd="vmopcfg"/>
+<function name="Update Viper's site level Config" cmd="uvipercfg"/>
+<function name="Update network settings" cmd="unetworkpartcfg"/>
+<function name="Update maint postal" cmd="umaintpostal"/>
+<function name="Update POS security config" cmd="upossecurity"/>
+<function name="Update DCR Key config" cmd="upscdcrkeycfg"/>
+<function name="Update EMV Configuration" cmd="uemvcfg"/>
+<function name="View Fep's configuration parameters" cmd="vfepcfg"/>
+<function name="Update Cashier End Drawer Amounts" cmd="ucashierenddraweramts"/>
+<function name="Refresh Configuration" cmd="crefreshcfg"/>
+<function name="View Network Configuration" cmd="vnetposcfg"/>
+<function name="Update carwash paypoint config" cmd="ucwpaypointcfg"/>
+<function name="View coupon family config" cmd="vcouponfamcfg"/>
+<function name="View discount denom config" cmd="vdiscountdenomcfg"/>
+<function name="View EMV Configuration" cmd="vemvcfg"/>
+<function name="View EPS Prepaid Card Config" cmd="vepsprepaidcfg"/>
+<function name="View Pinpad Idle and Swipe messages" cmd="vpinpadmsgcfg"/>
+<function name="Allow open cashier reports view" cmd="allowOpenCsrRpts"/>
+<function name="View Manager Review Status" cmd="vreportstatus"/>
+<function name="View Network Settings" cmd="vnetworkcfg"/>
+<function name="View DCR Idle Screen config" cmd="vdcridlescreencfg"/>
+<function name="View banner config" cmd="vbannercfg"/>
+<function name="View Site Asset Data" cmd="vsiteassetdata"/>
+<function name="Update Fep's card configuration parameters" cmd="ufepcardcfg"/>
+<function name="Update fee config" cmd="ufeecfg"/>
+<function name="Update commander console cloud agent properties"
+cmd="ucloudagentprop"/>
+<function name="Update Global Loyalty parameters" cmd="uloyaltyglobalcfg"/>
+<function name="View Esafe Config" cmd="vesafecfg"/>
+<function name="Payroll Reports" cmd="vpayrollrept"/>
+<function name="Update coupon family config" cmd="ucouponfamcfg"/>
+<function name="Manager workstation event logs" cmd="vmwslog"/>
+<function name="Update Pinpad Idle and Swipe messages" cmd="upinpadmsgcfg"/>
+<function name="Initialize Fuel" cmd="cfuelinit"/>
+<function name="View fee config" cmd="vfeecfg"/>
+<function name="Update DCR message config" cmd="udcrmessagecfg"/>
+<function name="View cw paypoint period list" cmd="vcwpaypointpdlist"/>
+<function name="View fueling position status" cmd="vfuelposstat"/>
+<function name="View process table - Text" cmd="vpsinfo"/>
+<function name="Compressed Period Reports with fully masked card holder data"
+cmd="vtranssetz"/>
+<function name="View DCR config" cmd="vpscdcrcfg"/>
+<function name="Update policy config" cmd="upolicycfg"/>
+<function name="View Loyalty Card Configuration" cmd="vloyaltycardcfg"/>
+<function name="Repeat last event" cmd="repeatEvent"/>
+<function name="ESafe Cashier Reports" cmd="vesafecashierrept"/>
+<function name="Carwash Paypoint Period Close" cmd="ccwpdclose"/>
+<function name="Pings the commander console url" cmd="cconsoleurl"/>
+<function name="Update maint fprht" cmd="umaintfprht"/>
+<function name="Update age validation config" cmd="uagevalidationcfg"/>
+<function name="Close Day Now" cmd="cclosedaynow"/>
+<function name="View Report Configuration" cmd="vreportcfg"/>
+<function name="Update Managed Configuration" cmd="umanagedcfg"/>
+   <function name="Set Time and Date" cmd="udatetime"/>
+   <function name="View Fep's card configuration parameters" cmd="vfepcardcfg"/>
+   <function name="View cashier tracking configuration" cmd="vcashiertrackingcfg"/>
+   <function name="Update Loyalty Card Type Configuration"
+   cmd="uloyaltycardtypecfg"/>
+   <function name="Update Echeck Config" cmd="uecheckcfg"/>
+   <function name="Viper reports" cmd="vviperrept"/>
+   <function name="View feature list" cmd="vfeaturelist"/>
+   <function name="View Echeck Config" cmd="vecheckcfg"/>
+   <function name="Update Controller system properties" cmd="usapphireprop"/>
+   <function name="View Cashier Drawer Amounts" cmd="vmwscashierdraweramts"/>
+   <function name="View Current Security Log Server IP Address"
+   cmd="vsecuritylogservercfg"/>
+   <function name="Initialize DCR" cmd="cdcrinit"/>
+   <function name="Initialize Carwash Paypoint" cmd="ccwpaypointinit"/>
+   <function name="Update Cashier Report Review Status"
+   cmd="ucashierreportreviewstatus"/>
+   <function name="Update Fuel Prices" cmd="ufuelprices"/>
+   <function name="View Reports Category List" cmd="vmobilereportcategorylist"/>
+   <function name="View DCR trailer config" cmd="vdcrtrailercfg"/>
+   <function name="View system log - Text" cmd="vsyslog"/>
+   <function name="View payroll period list" cmd="vpayrollpdlist2"/>
+   <function name="View maint telephone number" cmd="vmainttelephone"/>
+   <function name="View Viper's site level Config" cmd="vvipercfg"/>
+   <function name="View POS Screen Configuration" cmd="vscreencfg"/>
+   <function name="View App Specific Config" cmd="vappcfg"/>
+   <function name="View Screen Themes" cmd="vthemecfg"/>
+   <function name="Update check franking config" cmd="uchecklinecfg"/>
+   <function name="View Configuration" cmd="vmanagedmodulecfg"/>
+   <function name="Update currency config" cmd="ucurrencycfg"/>
+  </validFns>
+</role>
+<role name="areamanager">
+  <validFns>
+   <function name="Update register config" cmd="uregistercfg"/>
+   <function name="View pop config" cmd="vpopcfg"/>
+   <function name="View Prepaid Card Config" cmd="vprepaidcfg"/>
+   <function name="View carwash paypoint config" cmd="vcwpaypointcfg"/>
+   <function name="Update PLU Promo config" cmd="uplupromocfg"/>
+   <function name="Allow open cashier reports view" cmd="allowOpenCsrRpts"/>
+   <function name="Update carwash config" cmd="ucarwashcfg"/>
+   <function name="View policy config" cmd="vpolicycfg"/>
+   <function name="Payroll Reports (new format)" cmd="vpayrollrept2"/>
+   <function name="Update POS security config" cmd="upossecurity"/>
+   <function name="Update carwash paypoint config" cmd="ucwpaypointcfg"/>
+   <function name="Commit kiosk order" cmd="ukioskorder"/>
+   <function name="View currency config" cmd="vcurrencycfg"/>
+   <function name="View In-effect Fuel Prices" cmd="vfuelprices"/>
+   <function name="View maint telephone number" cmd="vmainttelephone"/>
+   <function name="View restriction config" cmd="vrestrictionscfg"/>
+   <function name="Update slogan config" cmd="uslogancfg"/>
+   <function name="User Administration" cmd="uuseradmin"/>
+   <function name="Ruby Reports" cmd="vrubyrept"/>
+   <function name="View Echeck Config" cmd="vecheckcfg"/>
+   <function name="View fee config" cmd="vfeecfg"/>
+   <function name="View coupon family config" cmd="vcouponfamcfg"/>
+   <function name="View in-house account config" cmd="vinhouseacctcfg"/>
+   <function name="Update Esafe Config" cmd="uesafecfg"/>
+   <function name="Compressed Fuel Totals Report" cmd="vfueltotalsz"/>
+   <function name="View carwash config" cmd="vcarwashcfg"/>
+   <function name="Update POS Screen Configuration" cmd="uscreencfg"/>
+   <function name="View TLS config" cmd="vtlssite"/>
+   <function name="Update maint postal" cmd="umaintpostal"/>
+   <function name="Update Group List Configuration" cmd="ugrouplist"/>
+   <function name="View User configuration" cmd="vuseradmin"/>
+￼ ￼ 
+<function name="Update maint registration key" cmd="umaintregistrationkey"/>
+<function name="View slogan config" cmd="vslogancfg"/>
+<function name="Update maint totalizers" cmd="umainttotalizers"/>
+<function name="Update DCR header config" cmd="udcrheadercfg"/>
+<function name="View POS Screen Configuration" cmd="vscreencfg"/>
+<function name="Update maint telephone" cmd="umainttelephone"/>
+<function name="View support doc" cmd="vrefinteg"/>
+<function name="View Group List Configuration" cmd="vgrouplist"/>
+<function name="Initialize Fuel" cmd="cfuelinit"/>
+<function name="Update menu config" cmd="umenucfg"/>
+<function name="Update POS config" cmd="uposcfg"/>
+<function name="View Network Settings" cmd="vnetworkcfg"/>
+<function name="View PLU Update status" cmd="vPLUUpdateStatus"/>
+<function name="View age validation config" cmd="vagevalidationcfg"/>
+<function name="Unregister event listener" cmd="veventunset"/>
+<function name="Update Network Settings" cmd="unetworkcfg"/>
+<function name="View Loyalty Card Configuration" cmd="vloyaltycardcfg"/>
+<function name="Init FP Display Config" cmd="cFPDinit"/>
+<function name="Update check franking config" cmd="uchecklinecfg"/>
+<function name="View sales config" cmd="vsalescfg"/>
+<function name="Update NAXML maintenance dataset" cmd="uMaintenance"/>
+<function name="View logo config" cmd="vlogocfg"/>
+<function name="Update cash acceptor config" cmd="ucashaccsite"/>
+<function name="View MOP config" cmd="vmopcfg"/>
+<function name="View FP Display Config" cmd="vFPDcfg"/>
+<function name="View PLU cache list" cmd="vPLUCacheList"/>
+<function name="View fueling position status" cmd="vfuelposstat"/>
+<function name="Update pop config" cmd="upopcfg"/>
+<function name="View DCR message config" cmd="vdcrmessagecfg"/>
+<function name="Update Fuel Tax Exemption Config" cmd="ufueltaxex"/>
+<function name="Update restriction config" cmd="urestrictionscfg"/>
+<function name="View report period list" cmd="vreportpdlist"/>
+<function name="Update in-house account config" cmd="uinhouseacctcfg"/>
+<function name="Update currency config" cmd="ucurrencycfg"/>
+<function name="Update Report Configuration" cmd="ureportcfg"/>
+<function name="Bypass employee id validation" cmd="bypassEmployeeId"/>
+<function name="Update DCR message config" cmd="udcrmessagecfg"/>
+<function name="Update coupon family config" cmd="ucouponfamcfg"/>
+<function name="View Fuel Tax Exemption Config" cmd="vfueltaxex"/>
+<function name="Allow Restricted Access" cmd="allowRestricted"/>
+<function name="Update PLU dataset" cmd="uPLUs"/>
+<function name="View register config" cmd="vregistercfg"/>
+<function name="View DCR trailer config" cmd="vdcrtrailercfg"/>
+<function name="View cashier tracking configuration" cmd="vcashiertrackingcfg"/>
+<function name="View Report Configuration" cmd="vreportcfg"/>
+<function name="View PLU Promo config" cmd="vplupromocfg"/>
+<function name="Payroll Reports" cmd="vpayrollrept"/>
+<function name="Initialize Carwash Paypoint" cmd="ccwpaypointinit"/>
+<function name="View cw paypoint period report" cmd="vcwpaypointpdrept"/>
+<function name="Update fee config" cmd="ufeecfg"/>
+<function name="Update tax rate config" cmd="utaxratecfg"/>
+<function name="Update DCR trailer config" cmd="udcrtrailercfg"/>
+<function name="View payroll period list" cmd="vpayrollpdlist2"/>
+<function name="View POS security config" cmd="vpossecurity"/>
+<function name="Fuel Totals Report" cmd="vfueltotals"/>
+<function name="View Report List Configuration" cmd="vreportlist"/>
+<function name="Update softkey config" cmd="usoftkeycfg"/>
+<function name="Update Loyalty Card Configuration" cmd="uloyaltycardcfg"/>
+<function name="Update blue law config" cmd="ubluelawcfg"/>
+<function name="Update Report List Configuration" cmd="ureportlist"/>
+<function name="View Esafe Config" cmd="vesafecfg"/>
+<function name="Carwash Paypoint Period Close" cmd="ccwpdclose"/>
+<function name="View menu config" cmd="vmenucfg"/>
+<function name="View cw paypoint period list" cmd="vcwpaypointpdlist"/>
+<function name="Update banner config" cmd="ubannercfg"/>
+   <function name="Register event listener" cmd="veventset"/>
+   <function name="View tax rate config" cmd="vtaxratecfg"/>
+   <function name="Update FP Display Config" cmd="uFPDcfg"/>
+   <function name="Send plu.dat to NEWPRO" cmd="getPLUsFromGempro"/>
+   <function name="View DCR header config" cmd="vdcrheadercfg"/>
+   <function name="View maint postal code" cmd="vmaintpostal"/>
+   <function name="Update cashier tracking configuration"
+   cmd="ucashiertrackingcfg"/>
+   <function name="View banner config" cmd="vbannercfg"/>
+   <function name="Update maint fprht" cmd="umaintfprht"/>
+   <function name="Repeat last event" cmd="repeatEvent"/>
+   <function name="View softkey config" cmd="vsoftkeycfg"/>
+   <function name="Notify amber alert updates" cmd="notifyamber"/>
+   <function name="View NAXML movement reports" cmd="vMovement"/>
+   <function name="View NAXML maintenance datasets" cmd="vMaintenance"/>
+   <function name="View blue law config" cmd="vbluelawcfg"/>
+   <function name="Update PLU cache list" cmd="uPLUCacheList"/>
+   <function name="Update TLS config" cmd="utlssite"/>
+   <function name="View Ruby payroll period list" cmd="vpayrollpdlist"/>
+   <function name="View period list" cmd="vperiodlist"/>
+   <function name="View report period filename" cmd="findfilename"/>
+   <function name="View check franking config" cmd="vchecklinecfg"/>
+   <function name="View POS config" cmd="vposcfg"/>
+   <function name="View payment config" cmd="vpaymentcfg"/>
+   <function name="Update logo config" cmd="ulogocfg"/>
+   <function name="Update payment config" cmd="upaymentcfg"/>
+   <function name="View maint totalizers" cmd="vmainttotalizers"/>
+   <function name="Update Prepaid Card Config" cmd="uprepaidcfg"/>
+   <function name="View Screen Themes" cmd="vthemecfg"/>
+   <function name="Update age validation config" cmd="uagevalidationcfg"/>
+   <function name="Update MOP config" cmd="umopcfg"/>
+   <function name="Update sales config" cmd="usalescfg"/>
+   <function name="Download Fuel Prices" cmd="cfuelprices"/>
+   <function name="Update Echeck Config" cmd="uecheckcfg"/>
+   <function name="View T-Log period list" cmd="vtlogpdlist"/>
+   <function name="View maint registration" cmd="vmaintregistration"/>
+   <function name="Send plu.dat to GEMPRO" cmd="sendPLUsToGempro"/>
+   <function name="View maint fueling point running hose totals"
+   cmd="vmaintfprht"/>
+   <function name="View cashier tracking report" cmd="vcashiertrackingrept"/>
+   <function name="Update Fuel Prices" cmd="ufuelprices"/>
+   <function name="View PLU dataset" cmd="vPLUs"/>
+   <function name="Update policy config" cmd="upolicycfg"/>
+   <function name="Allow all cashier reports view" cmd="allowAllCsrRpts"/>
+   <function name="View cash acceptor config" cmd="vcashaccsite"/>
+   <function name="Initialize DCR" cmd="cdcrinit"/>
+  </validFns>
+</role>
+<role name="helpdesk">
+  <validFns>
+   <function name="View coupon family config" cmd="vcouponfamcfg"/>
+   <function name="View Module Referentials" cmd="vmodulecfgref"/>
+   <function name="Update maint postal" cmd="umaintpostal"/>
+   <function name="View Pinpad Idle and Swipe messages" cmd="vpinpadmsgcfg"/>
+   <function name="View DCR config" cmd="vpscdcrcfg"/>
+   <function name="View DCR Idle Screen config" cmd="vdcridlescreencfg"/>
+   <function name="Update DCR header config" cmd="udcrheadercfg"/>
+   <function name="Update POS Screen Configuration" cmd="uscreencfg"/>
+   <function name="Update cash acceptor config" cmd="ucashaccsite"/>
+   <function name="Get Time and Date" cmd="vdatetime"/>
+   <function name="View Site Asset Data" cmd="vsiteassetdata"/>
+   <function name="View fueling position status" cmd="vfuelposstat"/>
+   <function name="View DCR header config" cmd="vdcrheadercfg"/>
+   <function name="View system log - Text" cmd="vsyslog"/>
+   <function name="View TLS config" cmd="vtlssite"/>
+￼ ￼ 
+<function name="Update DCR config" cmd="upscdcrcfg"/>
+<function name="In-effect Fuel Site Configuration" cmd="vfuelrtcfg"/>
+<function name="Init FP Display Config" cmd="cFPDinit"/>
+<function name="View maint totalizers" cmd="vmainttotalizers"/>
+<function name="Update Fep's card configuration parameters based on card Type"
+cmd="ufepcardtypecfg"/>
+<function name="Update restriction config" cmd="urestrictionscfg"/>
+<function name="View Screen Themes" cmd="vthemecfg"/>
+<function name="View register config" cmd="vregistercfg"/>
+<function name="View tax rate config" cmd="vtaxratecfg"/>
+<function name="View Loyalty Card Configuration" cmd="vloyaltycardcfg"/>
+<function name="View PLU dataset" cmd="vPLUs"/>
+<function name="View a Module Configuration" cmd="vmodulecfg"/>
+<function name="Payroll Reports (new format)" cmd="vpayrollrept2"/>
+<function name="Update FP Display Config" cmd="uFPDcfg"/>
+<function name="Compressed Fuel Totals Report" cmd="vfueltotalsz"/>
+<function name="View NAXML movement reports" cmd="vMovement"/>
+<function name="View blue law config" cmd="vbluelawcfg"/>
+<function name="View report period filename" cmd="findfilename"/>
+<function name="View menu config" cmd="vmenucfg"/>
+<function name="View Fuel Tax Exemption Config" cmd="vfueltaxex"/>
+<function name="Initialize Fuel Driver" cmd="cfueldrvinit"/>
+<function name="View Report List Configuration" cmd="vreportlist"/>
+<function name="Update network settings" cmd="unetworkpartcfg"/>
+<function name="View POS config" cmd="vposcfg"/>
+<function name="Fuel Totals Report" cmd="vfueltotals"/>
+<function name="View PLU Promo config" cmd="vplupromocfg"/>
+<function name="View process table - Text" cmd="vpsinfo"/>
+<function name="View cashier tracking report" cmd="vcashiertrackingrept"/>
+<function name="Validate the credential" cmd="validate"/>
+<function name="Update Network Settings" cmd="unetworkcfg"/>
+<function name="View currency config" cmd="vcurrencycfg"/>
+<function name="Update Fuel Tax Exemption Config" cmd="ufueltaxex"/>
+<function name="Update tax rate config" cmd="utaxratecfg"/>
+<function name="Update PLU dataset" cmd="uPLUs"/>
+<function name="Update Configuration" cmd="umanagedmodulecfg"/>
+<function name="Initialize DCR" cmd="cdcrinit"/>
+<function name="View In-effect Fuel Prices" cmd="vfuelrtprices"/>
+<function name="View PLU Update status" cmd="vPLUUpdateStatus"/>
+<function name="Update blue law config" cmd="ubluelawcfg"/>
+<function name="Repeat last event" cmd="repeatEvent"/>
+<function name="Initialize Fuel" cmd="cfuelinit"/>
+<function name="Disable Car Wash" cmd="ccarwashdisable"/>
+<function name="View softkey config" cmd="vsoftkeycfg"/>
+<function name="View maint telephone number" cmd="vmainttelephone"/>
+<function name="View cashier tracking configuration" cmd="vcashiertrackingcfg"/>
+<function name="View carwash paypoint config" cmd="vcwpaypointcfg"/>
+<function name="Refresh Configuration" cmd="crefreshcfg"/>
+<function name="Update Controller system properties" cmd="usapphireprop"/>
+<function name="Register event listener" cmd="veventset"/>
+<function name="Update IFSF Network Config" cmd="uifsfcfg"/>
+<function name="View Report Configuration" cmd="vreportcfg"/>
+<function name="Allow Restricted Access" cmd="allowRestricted"/>
+<function name="View cw paypoint period report" cmd="vcwpaypointpdrept"/>
+<function name="Update Loyalty Card Configuration" cmd="uloyaltycardcfg"/>
+<function name="View Controller system properties" cmd="vsapphireprop"/>
+<function name="View Global Loyalty parameters" cmd="vloyaltyglobalcfg"/>
+<function name="Update cashier tracking configuration"
+cmd="ucashiertrackingcfg"/>
+<function name="View policy config" cmd="vpolicycfg"/>
+<function name="Update Fep's card configuration parameters" cmd="ufepcardcfg"/>
+<function name="View Upgrade Summary Report" cmd="vupgradesummary"/>
+<function name="Notify amber alert updates" cmd="notifyamber"/>
+<function name="Update coupon family config" cmd="ucouponfamcfg"/>
+<function name="Update Report Configuration" cmd="ureportcfg"/>
+<function name="Update payment config" cmd="upaymentcfg"/>
+<function name="Update Pinpad Idle and Swipe messages" cmd="upinpadmsgcfg"/>
+<function name="Update softkey config" cmd="usoftkeycfg"/>
+<function name="View feature list" cmd="vfeaturelist"/>
+<function name="Update maint registration key" cmd="umaintregistrationkey"/>
+<function name="Initialize DCR Driver" cmd="cdcrdriverinit"/>
+<function name="Update policy config" cmd="upolicycfg"/>
+<function name="Update Fuel Site Configuration" cmd="ufuelcfg"/>
+<function name="Update Echeck Config" cmd="uecheckcfg"/>
+<function name="Update Viper's site level Config" cmd="uvipercfg"/>
+<function name="Enable Car Wash" cmd="ccarwashenable"/>
+<function name="View maint fueling point running hose totals"
+cmd="vmaintfprht"/>
+<function name="View Fep's card configuration parameters based on card Type"
+cmd="vfepcardtypecfg"/>
+<function name="View slogan config" cmd="vslogancfg"/>
+<function name="View in-house account config" cmd="vinhouseacctcfg"/>
+<function name="Update POS security config" cmd="upossecurity"/>
+<function name="View Network Settings" cmd="vnetworkcfg"/>
+<function name="View PLU cache list" cmd="vPLUCacheList"/>
+<function name="View carwash config" cmd="vcarwashcfg"/>
+<function name="View maint postal code" cmd="vmaintpostal"/>
+<function name="Delete Diagnostic Class" cmd="diagdeleteclass"/>
+<function name="View Viper's site level Config" cmd="vvipercfg"/>
+<function name="Update age validation config" cmd="uagevalidationcfg"/>
+<function name="Update DCR Key config" cmd="upscdcrkeycfg"/>
+<function name="Unregister event listener" cmd="veventunset"/>
+<function name="View cash acceptor config" cmd="vcashaccsite"/>
+<function name="View DCR message config" cmd="vdcrmessagecfg"/>
+<function name="Update TLS config" cmd="utlssite"/>
+<function name="Update slogan config" cmd="uslogancfg"/>
+<function name="Compressed Period Reports with fully masked card holder data"
+cmd="vtranssetz"/>
+<function name="View DCR trailer config" cmd="vdcrtrailercfg"/>
+<function name="Allow all cashier reports view" cmd="allowAllCsrRpts"/>
+<function name="Update Esafe Config" cmd="uesafecfg"/>
+<function name="Update maint totalizers" cmd="umainttotalizers"/>
+<function name="View EPS Prepaid Card Config" cmd="vepsprepaidcfg"/>
+<function name="Update DCR Idle Screen config" cmd="udcridlescreencfg"/>
+<function name="View System Resource Mappings" cmd="vsysresourcesmap"/>
+<function name="Payroll Reports" cmd="vpayrollrept"/>
+<function name="View Module/Descriptions map" cmd="vmoddescmap"/>
+<function name="View Network Configuration" cmd="vnetposcfg"/>
+<function name="Update maint fprht" cmd="umaintfprht"/>
+<function name="View DCR Key config" cmd="vpscdcrkeycfg"/>
+<function name="Update sales config" cmd="usalescfg"/>
+<function name="Download Fuel Prices" cmd="cfuelprices"/>
+<function name="Update pop config" cmd="upopcfg"/>
+<function name="Update register config" cmd="uregistercfg"/>
+<function name="Update carwash config" cmd="ucarwashcfg"/>
+<function name="View Ruby payroll period list" cmd="vpayrollpdlist"/>
+<function name="Update menu config" cmd="umenucfg"/>
+<function name="View Esafe Config" cmd="vesafecfg"/>
+<function name="View restriction config" cmd="vrestrictionscfg"/>
+<function name="Update carwash paypoint config" cmd="ucwpaypointcfg"/>
+<function name="Update MOP config" cmd="umopcfg"/>
+<function name="View payroll period list" cmd="vpayrollpdlist2"/>
+<function name="Update Fep's configuration parameters" cmd="ufepcfg"/>
+<function name="Send plu.dat to GEMPRO" cmd="sendPLUsToGempro"/>
+<function name="View In-effect Fuel Prices" cmd="vfuelprices"/>
+<function name="View sales config" cmd="vsalescfg"/>
+<function name="Update a feature" cmd="cfeatureenablement"/>
+<function name="View Fep's card configuration parameters" cmd="vfepcardcfg"/>
+<function name="Initialize Carwash Paypoint" cmd="ccwpaypointinit"/>
+<function name="View Pending Configurations" cmd="vpendmdlcfg"/>
+<function name="Allow open cashier reports view" cmd="allowOpenCsrRpts"/>
+<function name="Update PLU Promo config" cmd="uplupromocfg"/>
+<function name="View payment config" cmd="vpaymentcfg"/>
+<function name="View Configuration" cmd="vmanagedmodulecfg"/>
+<function name="View maint registration" cmd="vmaintregistration"/>
+<function name="Load Diagnostic Class" cmd="diagloadclass"/>
+<function name="Update fee config" cmd="ufeecfg"/>
+<function name="Update in-house account config" cmd="uinhouseacctcfg"/>
+<function name="View Prepaid Card Config" cmd="vprepaidcfg"/>
+<function name="Update currency config" cmd="ucurrencycfg"/>
+<function name="Carwash Paypoint Period Close" cmd="ccwpdclose"/>
+<function name="View banner config" cmd="vbannercfg"/>
+<function name="Update logo config" cmd="ulogocfg"/>
+<function name="Ruby Reports" cmd="vrubyrept"/>
+<function name="View T-Log period list" cmd="vtlogpdlist"/>
+<function name="Update Fuel Prices" cmd="ufuelprices"/>
+<function name="View User configuration" cmd="vuseradmin"/>
+<function name="View Basic Fep Details" cmd="vfepdetails"/>
+<function name="View support doc" cmd="vrefinteg"/>
+<function name="Update banner config" cmd="ubannercfg"/>
+<function name="Pings a given destination." cmd="cping"/>
+<function name="Allow Viper period list view" cmd="vviperpdlist"/>
+<function name="View cw paypoint period list" cmd="vcwpaypointpdlist"/>
+<function name="Bypass employee id validation" cmd="bypassEmployeeId"/>
+<function name="View report period list" cmd="vreportpdlist"/>
+<function name="View period list" cmd="vperiodlist"/>
+<function name="View Group List Configuration" cmd="vgrouplist"/>
+<function name="User Administration" cmd="uuseradmin"/>
+<function name="View App Module Names" cmd="vappmodules"/>
+<function name="Update Prepaid Card Config" cmd="uprepaidcfg"/>
+<function name="View pop config" cmd="vpopcfg"/>
+<function name="View NAXML maintenance datasets" cmd="vMaintenance"/>
+<function name="Viper reports" cmd="vviperrept"/>
+<function name="View logo config" cmd="vlogocfg"/>
+<function name="View MOP config" cmd="vmopcfg"/>
+<function name="View IFSF Network Config" cmd="vifsfcfg"/>
+<function name="Update Report List Configuration" cmd="ureportlist"/>
+<function name="View Fep's configuration parameters" cmd="vfepcfg"/>
+<function name="Send plu.dat to NEWPRO" cmd="getPLUsFromGempro"/>
+<function name="Update PLU cache list" cmd="uPLUCacheList"/>
+<function name="Commit kiosk order" cmd="ukioskorder"/>
+<function name="Update Group List Configuration" cmd="ugrouplist"/>
+<function name="Update DCR message config" cmd="udcrmessagecfg"/>
+<function name="Update DCR trailer config" cmd="udcrtrailercfg"/>
+<function name="Update EPS Prepaid Card Config" cmd="uepsprepaidcfg"/>
+<function name="Update Global Loyalty parameters" cmd="uloyaltyglobalcfg"/>
+<function name="Update software" cmd="cswupgradepkg"/>
+<function name="Update check franking config" cmd="uchecklinecfg"/>
+<function name="Update maint telephone" cmd="umainttelephone"/>
+<function name="View fee config" cmd="vfeecfg"/>
+<function name="Update NAXML maintenance dataset" cmd="uMaintenance"/>
+<function name="View FP Display Config" cmd="vFPDcfg"/>
+<function name="Update POS config" cmd="uposcfg"/>
+<function name="View check franking config" cmd="vchecklinecfg"/>
+<function name="Update Fuel Site Configuration" cmd="vfuelcfg"/>
+<function name="View Echeck Config" cmd="vecheckcfg"/>
+<function name="View POS Screen Configuration" cmd="vscreencfg"/>
+<function name="Release the credential" cmd="releaseCredential"/>
+<function name="Set Time and Date" cmd="udatetime"/>
+<function name="View age validation config" cmd="vagevalidationcfg"/>
+<function name="View POS security config" cmd="vpossecurity"/>
+<function name="Period Reports with fully masked card holder data"
+cmd="vtransset"/>
+<function name="Run Diagnostic Class" cmd="diagrunclass"/>
+</validFns> 
+  </role>
+  <role name="cashier">
+   <validFns/>
+  </role>
+</roles>
+<users>
+  <user name=“user1” isDisallowLogin="0">
+   <validRoles>
+     <role name="storemanager"/>
+     <role name="manager"/>
+     <role name="areamanager"/>
+     <role name="cashier"/>
+     <role name="basic"/>
+     <role name="helpdesk"/>
+   </validRoles>
+   <passwd expire="1" freq="90" minLen="7" maxLen="15"/>
+  </user>
+  <user name=“user2” isDisallowLogin="0">
+   <validRoles>
+     <role name="storemanager"/>
+     <role name="basic"/>
+   </validRoles>
+   <passwd expire="1" freq="90" minLen="7" maxLen="40"/>
+  </user>
+  <user name=“user3” isDisallowLogin="0">
+   <validRoles>
+     <role name="manager"/>
+     <role name="basic"/>
+   </validRoles>
+   <passwd expire="1" freq="90" minLen="7" maxLen="9"/>
+   <secureUserID isSecureUserAdmin="1">1</secureUserID>
+  </user>
+  <user name=“user4” isDisallowLogin="0">
+   <validRoles>
+     <role name="manager"/>
+     <role name="basic"/>
+   </validRoles>
+   <passwd expire="1" freq="90" minLen="7" maxLen="15"/>
+   <secureUserID isSecureUserAdmin="1">2</secureUserID>
+  </user>
+  <user name=“user5” isDisallowLogin="0">
+   <validRoles>
+     <role name="storemanager"/>
+     <role name="manager"/>
+     <role name="areamanager"/>
+     <role name="cashier"/>
+     <role name="basic"/>
+     <role name="helpdesk"/>
+   </validRoles>
+   <passwd expire="1" freq="90" minLen="7" maxLen="15"/>
+   <employee>13</employee>
+  </user>
+  <user name=“user6” isDisallowLogin="0">
+   <validRoles>
+     <role name="cashier"/>
+     <role name="basic"/>
+   </validRoles>
+   <passwd expire="1" freq="90" minLen="7" maxLen="40"/>
+  </user>
+  <user name=“user7” isDisallowLogin="0">
+   <validRoles>
+     <role name="basic"/>
+     <role name="helpdesk"/>
+   </validRoles>
+   <passwd expire="1" freq="90" minLen="7" maxLen="9"/>
+￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼ ￼ 
+   </user>
+   <user name=“user8” isDisallowLogin="0">
+     <validRoles>
+       <role name="storemanager"/>
+       <role name="manager"/>
+       <role name="areamanager"/>
+       <role name="cashier"/>
+       <role name="basic"/>
+       <role name="helpdesk"/>
+     </validRoles>
+     <passwd expire="1" freq="90" minLen="7" maxLen="15"/>
+     <employee>3</employee>
+   </user>
+  </users>
+</domain:userConfig>
