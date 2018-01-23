@@ -21,7 +21,7 @@ def getCookie():
 
 def getReports(biscuit):
 
-	alldata2 = requests.get('https://' + COMANDER_IP + '/cgi-bin/CGILink?cmd=vreportpdlist&cookie=' + biscuit, verify=False)
+	alldata2 = requests.get('https://' + COMANDER_IP + '/cgi-bin/CGILink?cmd=vuseradmin&cookie=' + biscuit, verify=False)
 	if alldata2.status_code !=200:
 		print('Balls');
 		exit(1);
